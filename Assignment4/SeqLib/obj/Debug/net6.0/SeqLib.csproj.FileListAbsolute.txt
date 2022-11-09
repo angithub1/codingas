@@ -1,0 +1,12 @@
+D:\anis\DotNet\Assignments\Assignment4\SeqLib\bin\Debug\net6.0\SeqLib.deps.json
+D:\anis\DotNet\Assignments\Assignment4\SeqLib\bin\Debug\net6.0\SeqLib.dll
+D:\anis\DotNet\Assignments\Assignment4\SeqLib\bin\Debug\net6.0\SeqLib.pdb
+D:\anis\DotNet\Assignments\Assignment4\SeqLib\obj\Debug\net6.0\SeqLib.csproj.AssemblyReference.cache
+D:\anis\DotNet\Assignments\Assignment4\SeqLib\obj\Debug\net6.0\SeqLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\anis\DotNet\Assignments\Assignment4\SeqLib\obj\Debug\net6.0\SeqLib.AssemblyInfoInputs.cache
+D:\anis\DotNet\Assignments\Assignment4\SeqLib\obj\Debug\net6.0\SeqLib.AssemblyInfo.cs
+D:\anis\DotNet\Assignments\Assignment4\SeqLib\obj\Debug\net6.0\SeqLib.csproj.CoreCompileInputs.cache
+D:\anis\DotNet\Assignments\Assignment4\SeqLib\obj\Debug\net6.0\SeqLib.dll
+D:\anis\DotNet\Assignments\Assignment4\SeqLib\obj\Debug\net6.0\refint\SeqLib.dll
+D:\anis\DotNet\Assignments\Assignment4\SeqLib\obj\Debug\net6.0\SeqLib.pdb
+D:\anis\DotNet\Assignments\Assignment4\SeqLib\obj\Debug\net6.0\ref\SeqLib.dll
