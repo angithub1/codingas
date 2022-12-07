@@ -1,0 +1,32 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Merriweather&family=Montserrat:wght@800&family=Oswald:wght@500&family=Patua+One&display=swap');
+
+body{
+    width: 1200;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'PT Sans', sans-serif;
+    background-color: rgb(227, 242, 253);
+    display: flex;
+}
+
+h2, legend{
+    font-family: 'Patua One', cursive;
+}
+
+.my{
+    
+    border: outset rgb(202, 189, 189) 5px;   
+}
+
+/* .row{
+    width: 100%;
+}
+
+
+.img{
+    width: 33.33%;
+} */
+
+
