@@ -1,0 +1,77 @@
+         
+
+           Question 1 SQL 
+
+ 
+
+1.create table CDAC_Student(
+  rollno numeric(6),
+  name varchar(20),
+  branch varchar(20) );
+
+2.insert into CDAC_Student (rollno, name, branch)
+  values (101, 'Anis', 'IT');
+  insert into CDAC_Student (rollno, name, branch)
+  values (102, 'Avinash', 'CS');
+  insert into CDAC_Student (rollno, name, branch)
+  values (103, 'Sagar', 'ME');
+  insert into CDAC_Student (rollno, name, branch)
+  values (104, 'Ashish', 'E&TC');
+
+3.alter table CDAC_Student
+  add class varchar(20);
+
+4. delete from CDAC_Student
+   where rollno=104;
+
+5. alter table CDAC_Studentdrop column branch;
+
+6. alter table CDAC_Student
+  modify name char(20);
+
+7. delete from CDAC_Student;
+
+8. drop table CDAC_Student;
+
+
+
+
+                       Question 2 - Oracle
+
+
+
+create table emp_details_13 (empno number(4), ename varchar(10), job varchar(9), mgr number(4), hiredate date, sal number(7,2), comm number(7,2), deptno number(2));
+
+insert into emp_details_13(empno, ename, job, mgr, hiredate, sal, comm, deptno) values (1, 'Anis', 'M', '', '14-SEP-21', 50000, 7500, 10);
+insert into emp_details_13(empno, ename, job, mgr, hiredate, sal, comm, deptno) values (2, 'Avinash', 'M', '', '20-OCT-18', 45000, 4500, 20);
+insert into emp_details_13(empno, ename, job, mgr, hiredate, sal, comm, deptno) values (3, 'Sagar', 'C', '', '01-JAN-21', 23000, 9500, 10);
+insert into emp_details_13(empno, ename, job, mgr, hiredate, sal, comm, deptno) values (4, 'Ashish', 'C', '', '30-SEP-19', 32000, 2800, 10);
+insert into emp_details_13(empno, ename, job, mgr, hiredate, sal, comm, deptno) values (5, 'Adi', 'C', '', '15-MAY-22', 21000, 15500, 20);
+
+create table dept_details_13(deptno number(2), dname varchar(14), loc varchar(13));
+
+insert into dept_details_13(deptno, dname, loc) values(10, 'IT', 'Pune');
+insert into dept_details_13(deptno, dname, loc) values(20, 'Sales', 'Mumbai');
+insert into dept_details_13(deptno, dname, loc) values(30, 'HR', 'Dehli');
+
+
+
+1. select * from emp_details_13 where mgr is null;
+
+2. select empno, ename, sal from emp_details_13 where sal between 30000 and 60000;
+
+3. select distinct job from emp_details_13;
+
+4. select max(sal) - min(sal) from emp_details_13;
+
+5. select ename, dept_details_13.deptno, dname from emp_details_13, dept_details_13 where emp_details_13.deptno=dept_details_13.deptno and job = 'C';
+
+6. select a.ename, b.ename from emp_details_13 a, emp_details_13 b where a.mgr = b.empno;
+
+7. select ename, deptno from emp_details_13 where deptno =(select deptno from dept_details_13 where loc = 'Pune');
+
+8. select ename from emp_details_13 where deptno = 10 and sal <= any (select sal from emp_details_13 where deptno = 20); 
+
+9. select ename from emp_details_13 where deptno != 10 and sal < any (select sal from emp_details_13 where deptno = 10); 
+
+10. select ename, job, hiredate from emp_details_13 where job = 'M' order by hiredate;
